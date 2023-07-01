@@ -77,6 +77,12 @@ left: 550px;
 top:270px;
 }
 
+.submit {
+font-family:Arial, Helvetica, sans-serif;
+color: #437CB6;
+
+}
+
 .img_position {
 position:absolute;
 left:185px;
