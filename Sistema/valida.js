@@ -15,7 +15,8 @@ const usuarios = [
     }
 ]
 
-let botao = document.getElementById('btnlogar')
+let botao = document.getElementById('btnlogar');
+
 botao.addEventListener('click', function logar(){
     let pegaUsuario = document.getElementById('username').value
     let pegaSenha = document.getElementById('password').value
@@ -31,7 +32,8 @@ botao.addEventListener('click', function logar(){
     }
 
         if(validaLogin == true){
-        window.location = "index.html"
+        location.href = 'index.html'
+        alert('Logado com Sucesso!')
         }
 
         else{
